@@ -1,1 +1,3 @@
 default/default
+default/*.gz
+.DS_Store

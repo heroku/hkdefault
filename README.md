@@ -5,6 +5,6 @@ default will execute the heroku gem in PATH with all parameters given to hk if t
 
 ### Install
 
-Download latest version [here](https://github.com/heroku/hkdefault/downloads)
-mv default /usr/local/lib/hk/plugin
-chmod +x /usr/local/lib/hk/plugin/default
+	$ mkdir -p /usr/local/lib/hk/plugin
+	$ wget -qO- https://github.com/downloads/heroku/hkdefault/darwin-amd64-hkdefault-1.gz | zcat >/usr/local/lib/hk/plugin/default
+	$ chmod +x /usr/local/lib/hk/plugin/default
