@@ -12,5 +12,5 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	syscall.Exec(path, os.Args, os.Environ())
+	syscall.Exec(path, append([]string{"heroku"}, os.Args...), os.Environ())
 }
