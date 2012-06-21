@@ -1,6 +1,7 @@
 # hkdefault
 
-hkdefault is the default plugin for the fast Heroku client [hk](https://github.com/kr/hk)
+hkdefault is the default plugin for the fast Heroku client [hk](https://github.com/kr/hk).
+
 default will execute the heroku gem in PATH with all parameters given to hk if the given command or hk plugin is not found.
 
 ### Install
